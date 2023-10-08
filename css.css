@@ -1,0 +1,21 @@
+h1{
+    text-align: center;
+    color: rgb(128, 0, 117);
+}
+input{
+    height: 40px;
+    width: 30%;
+}
+.input-container{
+    text-align: center;
+
+}
+button{
+    height: 44.5px;
+    width: 45px;
+}
+
+
+@media(max-width: 900px){
+
+}
