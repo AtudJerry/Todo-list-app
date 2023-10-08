@@ -10,12 +10,26 @@ input{
     text-align: center;
 
 }
-button{
+.but{
     height: 44.5px;
     width: 45px;
 }
 li{
     font-size: 30px;
+}
+.warn{
+    color: red;
+    font-size: 20px;
+}
+.del{
+    height: 37px;
+    width: 78px;
+    color: red;
+    border: 0px;
+    background-color: white;
+}
+.del:hover{
+    cursor: pointer;
 }
 
 
