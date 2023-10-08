@@ -2,6 +2,7 @@
 const button = document.querySelector('button')
 const li = document.querySelector('.todo-list')
 const list = []
+const inpt = document.getElementById('inp')
 
 window.addEventListener('DOMContentLoaded',()=>{
   
@@ -17,7 +18,5 @@ button.addEventListener('click', (e)=>{
       return `  <li>${todo}</li> `
     }).join('')
     li.innerHTML = todos
-    
-  
-
+    inpt.value = ""
 })
