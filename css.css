@@ -14,6 +14,9 @@ button{
     height: 44.5px;
     width: 45px;
 }
+li{
+    font-size: 30px;
+}
 
 
 @media(max-width: 900px){
