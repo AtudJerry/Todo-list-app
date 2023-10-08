@@ -11,12 +11,17 @@ window.addEventListener('DOMContentLoaded',()=>{
 })
 
 button.addEventListener('click', (e)=>{
+  const inp = document.getElementById('inp').value
+  
     e.preventDefault()
-    const inp = document.getElementById('inp').value
+    if (inp ==""){
+
+    }else{
     list.push(inp)
     const todos = list.map( (todo)=>{
       return `  <li>${todo}</li> `
     }).join('')
     li.innerHTML = todos
     inpt.value = ""
+  }
 })
